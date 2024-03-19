@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { faucets_backend } from 'declarations/faucets_backend';
 import Navbar from './components/Navbar';
+import Glow from './components/Glow';
+import Card from './components/tiltCard';
 
 function App() {
   const [greeting, setGreeting] = useState('');
@@ -20,15 +22,17 @@ function App() {
       
       
       <Navbar/>
+      <Glow/>
+      <Card/>
       <br />
       <br />
       
-      <form action="#" onSubmit={handleSubmit}>
+      {/* <form action="#" onSubmit={handleSubmit}>
         <label htmlFor="name">Enter your name: &nbsp;</label>
         <input id="name" alt="Name" type="text" />
         <button type="submit">Click Me!</button>
       </form>
-      <section id="greeting">{greeting}</section>
+      <section id="greeting">{greeting}</section> */}
     
       
     </>

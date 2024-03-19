@@ -77,7 +77,7 @@ function Navbar() {
           </ul>
         </div>
       </nav>
-      <h1>Hi this is testing</h1>
+      
     </div>
   );
 }
